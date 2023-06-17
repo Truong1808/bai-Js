@@ -37,7 +37,7 @@ document.getElementById('DemSo').onclick = function(){
 // Tim so nho nhat
 
 document.getElementById('soNhoNhat').onclick = function(){
-    var soNhoNhat = 0;
+    var soNhoNhat =arrKetQua[0];
     for (var i = 0; i < arrKetQua.length; i++) {
         var e = arrKetQua[i];
         if(e < soNhoNhat) {
