@@ -50,7 +50,7 @@ document.getElementById('soNhoNhat').onclick = function(){
 // Tim so duong nho nhat
 
 document.getElementById('txtSoDuongNhoNhat').onclick = function(){
-    var soDuongNhoNhat = 0;
+    var soDuongNhoNhat =arrKetQua[0];
     for (var i = 0; i < arrKetQua.length; i++) {
         var e = arrKetQua[i];
         if(e > 0 && e < soDuongNhoNhat) {
