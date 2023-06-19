@@ -16,8 +16,9 @@ document.getElementById('btnTinhTong').onclick = function(){
     var tong = 0;
     for (var i = 0; i < arrKetQua.length; i++) {
         var e = arrKetQua[i];
-        tong += e; 
+        tong += e ; 
     }
+    
     document.getElementById('tongSoDuong').innerHTML =  tong;
 }
 
